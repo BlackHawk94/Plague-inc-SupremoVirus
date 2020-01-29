@@ -1,0 +1,34 @@
+Scenario Information:
+ scen_title:Supremo Mega Brutale
+ scen_description:Un fungo di nome Supremo da giocare in Mega Brutale
+ scen_icon:scenario_black_death
+ scen_author_name:VIruz
+ scen_created_date:29.1.2020
+ scen_edited_date:29.1.2020
+ scen_start_date:637158528000000000
+ scen_version:0.6.5.4
+ scen_plague_type:FUNGUS
+ scen_difficulty:mega-brutal
+ scen_name:Supremo
+ scen_genes:0
+ scen_nexus:italy
+ scen_nexus_pop_infected:6048350
+ scen_nexus_pop_dead:0
+ scen_nexus_pop_zombie:0
+ scen_auto_load:0
+ scen_free:0
+ scen_init_popup1_title:Supremo colpisce il mondo
+ scen_init_popup1_text:Benvenuto in questa modalità, supremo riuscirà a distruggere il pianeta terra una volta per tutte?\n\n\nCreated by: Sakon90HD
+ scen_init_popup2_title:Twitch.tv/SAKON90HD
+ scen_init_popup2_text:Questa modalità è stata creata appositamente per Cappellaio_Matto per essere portata su Twitch come escusiva per il canale
+ scen_event_restriction:False
+ scen_score_multiplier:0.99
+ scen_game_win_tech:
+ scen_end_message_image:
+ scen_end_message_title:
+ scen_end_message_text:
+ scen_end_game_tagline:
+ scen_cheats:0
+ scen_main_language:
+ scen_default_language:
+ scen_default_events:general_narrative,news,tutorial,cure,nature,human,

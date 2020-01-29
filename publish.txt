@@ -1,0 +1,8 @@
+publish:
+ visibility:None
+ publish_id:
+ has_published:0
+ image_counter_text:scenario_black_death:1,
+ export_text:
+ import_text:
+ category_tag:
