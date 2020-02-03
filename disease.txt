@@ -16,21 +16,21 @@ global:
  cold:1
  humid:1
  arid:1
- mutation:0.5
+ mutation:0
  land_transmission:1
  sea_transmission:1
  air_transmission:1
  corpse_transmission:1
  nexus_min_infect:8
  nexus_bonus_gene:5
- global_infectiousness_top_multipler:0.1
- global_infectiousness_bottom_value:1
+ global_infectiousness_top_multipler:10
+ global_infectiousness_bottom_value:10
  global_severity_top_multipler:0.1
  global_severity_bottom_value:1
  global_lethality_top_multipler:0.05
  global_lethality_bottom_value:0.4
- cure_requirement_base_multipler:2
- infected_points_pot_change:300
+ cure_requirement_base_multipler:20
+ infected_points_pot_change:300000
 
 disease_tech:
  air_1:
@@ -44,7 +44,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:1
-  cost:-8
+  cost:0
   change_to_infectiousness:4
   change_to_severity:0
   change_to_lethality:0
@@ -128,7 +128,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-12
+  cost:0
   change_to_infectiousness:7
   change_to_severity:0
   change_to_lethality:0
@@ -212,7 +212,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:1
-  cost:-7
+  cost:0
   change_to_infectiousness:3
   change_to_severity:0
   change_to_lethality:0
@@ -296,7 +296,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:bird_1
   start_point:0
-  cost:-7
+  cost:0
   change_to_infectiousness:6
   change_to_severity:0
   change_to_lethality:0
@@ -380,7 +380,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:1
-  cost:-8
+  cost:0
   change_to_infectiousness:2
   change_to_severity:0
   change_to_lethality:0
@@ -464,7 +464,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-13
+  cost:0
   change_to_infectiousness:4
   change_to_severity:0
   change_to_lethality:0
@@ -548,7 +548,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:1
-  cost:-9
+  cost:0
   change_to_infectiousness:4
   change_to_severity:0
   change_to_lethality:0
@@ -632,7 +632,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-20
+  cost:00
   change_to_infectiousness:8
   change_to_severity:0
   change_to_lethality:0
@@ -716,7 +716,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:1
-  cost:-7
+  cost:0
   change_to_infectiousness:2
   change_to_severity:0
   change_to_lethality:0
@@ -800,7 +800,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-12
+  cost:0
   change_to_infectiousness:4
   change_to_severity:0
   change_to_lethality:0
@@ -884,7 +884,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:bird_2,livestock_2,rodent_2
   start_point:0
-  cost:-17
+  cost:0
   change_to_infectiousness:5
   change_to_severity:0
   change_to_lethality:0
@@ -968,7 +968,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:air_2,water_2
   start_point:0
-  cost:-12
+  cost:0
   change_to_infectiousness:5
   change_to_severity:0
   change_to_lethality:0
@@ -1052,7 +1052,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:insect_2,blood_2
   start_point:0
-  cost:-24
+  cost:0
   change_to_infectiousness:5
   change_to_severity:0
   change_to_lethality:0
@@ -1136,7 +1136,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:1
-  cost:-10
+  cost:00
   change_to_infectiousness:3
   change_to_severity:0
   change_to_lethality:0
@@ -1220,7 +1220,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:rodent_1
   start_point:0
-  cost:-16
+  cost:0
   change_to_infectiousness:6
   change_to_severity:0
   change_to_lethality:0
@@ -1304,7 +1304,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:1
-  cost:-7
+  cost:0
   change_to_infectiousness:4
   change_to_severity:0
   change_to_lethality:0
@@ -1388,7 +1388,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-12
+  cost:0
   change_to_infectiousness:8
   change_to_severity:0
   change_to_lethality:0
@@ -1472,7 +1472,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:1
-  cost:-11
+  cost:0
   change_to_infectiousness:0
   change_to_severity:0
   change_to_lethality:0
@@ -1556,7 +1556,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:heat_resistance_1
   start_point:0
-  cost:-22
+  cost:0
   change_to_infectiousness:0
   change_to_severity:0
   change_to_lethality:0
@@ -1640,7 +1640,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:1
-  cost:-7
+  cost:0
   change_to_infectiousness:0
   change_to_severity:0
   change_to_lethality:0
@@ -1724,7 +1724,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:cold_resistance_1
   start_point:0
-  cost:-12
+  cost:0
   change_to_infectiousness:0
   change_to_severity:0
   change_to_lethality:0
@@ -1808,7 +1808,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:cold_resistance_2,heat_resistance_2
   start_point:0
-  cost:-30
+  cost:00
   change_to_infectiousness:0
   change_to_severity:0
   change_to_lethality:0
@@ -1892,7 +1892,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:1
-  cost:-11
+  cost:0
   change_to_infectiousness:0
   change_to_severity:0
   change_to_lethality:0
@@ -1976,7 +1976,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-25
+  cost:0
   change_to_infectiousness:0
   change_to_severity:0
   change_to_lethality:0
@@ -2060,7 +2060,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-17
+  cost:0
   change_to_infectiousness:0
   change_to_severity:0
   change_to_lethality:0
@@ -2144,7 +2144,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:genetic_reshuffle_1
   start_point:0
-  cost:-21
+  cost:0
   change_to_infectiousness:0
   change_to_severity:0
   change_to_lethality:0
@@ -2228,7 +2228,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-25
+  cost:0
   change_to_infectiousness:0
   change_to_severity:0
   change_to_lethality:0
@@ -2312,7 +2312,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-7
+  cost:0
   change_to_infectiousness:0
   change_to_severity:0
   change_to_lethality:0
@@ -2396,7 +2396,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:genetic__hardening_1
   start_point:0
-  cost:-22
+  cost:0
   change_to_infectiousness:0
   change_to_severity:0
   change_to_lethality:0
@@ -2480,7 +2480,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:1
-  cost:-2
+  cost:0
   change_to_infectiousness:1
   change_to_severity:1
   change_to_lethality:0
@@ -2564,7 +2564,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:1
-  cost:-2
+  cost:0
   change_to_infectiousness:0
   change_to_severity:3
   change_to_lethality:0
@@ -2648,7 +2648,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:1
-  cost:-4
+  cost:0
   change_to_infectiousness:3
   change_to_severity:1
   change_to_lethality:0
@@ -2732,7 +2732,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:1
-  cost:-2
+  cost:0
   change_to_infectiousness:2
   change_to_severity:2
   change_to_lethality:0
@@ -2816,7 +2816,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:1
-  cost:-3
+  cost:0
   change_to_infectiousness:2
   change_to_severity:1
   change_to_lethality:0
@@ -2900,7 +2900,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:1
-  cost:-2
+  cost:0
   change_to_infectiousness:1
   change_to_severity:1
   change_to_lethality:0
@@ -2984,7 +2984,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-3
+  cost:0
   change_to_infectiousness:3
   change_to_severity:1
   change_to_lethality:0
@@ -3068,7 +3068,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-4
+  cost:0
   change_to_infectiousness:0
   change_to_severity:4
   change_to_lethality:0
@@ -3152,7 +3152,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-3
+  cost:0
   change_to_infectiousness:3
   change_to_severity:2
   change_to_lethality:0
@@ -3236,7 +3236,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-2
+  cost:0
   change_to_infectiousness:1
   change_to_severity:2
   change_to_lethality:0
@@ -3320,7 +3320,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-5
+  cost:0
   change_to_infectiousness:5
   change_to_severity:1
   change_to_lethality:0
@@ -3404,7 +3404,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-2
+  cost:0
   change_to_infectiousness:4
   change_to_severity:4
   change_to_lethality:0
@@ -3488,7 +3488,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-3
+  cost:0
   change_to_infectiousness:2
   change_to_severity:1
   change_to_lethality:0
@@ -3572,7 +3572,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-3
+  cost:0
   change_to_infectiousness:4
   change_to_severity:3
   change_to_lethality:0
@@ -3656,7 +3656,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-6
+  cost:0
   change_to_infectiousness:6
   change_to_severity:4
   change_to_lethality:1
@@ -3740,7 +3740,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-4
+  cost:0
   change_to_infectiousness:1
   change_to_severity:7
   change_to_lethality:3
@@ -3824,7 +3824,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-7
+  cost:0
   change_to_infectiousness:5
   change_to_severity:4
   change_to_lethality:2
@@ -3908,7 +3908,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-5
+  cost:0
   change_to_infectiousness:2
   change_to_severity:2
   change_to_lethality:2
@@ -3992,7 +3992,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-6
+  cost:0
   change_to_infectiousness:3
   change_to_severity:3
   change_to_lethality:2
@@ -4076,7 +4076,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-10
+  cost:00
   change_to_infectiousness:1
   change_to_severity:5
   change_to_lethality:1
@@ -4160,7 +4160,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-12
+  cost:0
   change_to_infectiousness:2
   change_to_severity:6
   change_to_lethality:4
@@ -4244,7 +4244,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-17
+  cost:0
   change_to_infectiousness:6
   change_to_severity:7
   change_to_lethality:6
@@ -4328,7 +4328,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-9
+  cost:0
   change_to_infectiousness:4
   change_to_severity:3
   change_to_lethality:3
@@ -4412,7 +4412,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-11
+  cost:0
   change_to_infectiousness:2
   change_to_severity:0
   change_to_lethality:4
@@ -4496,7 +4496,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-8
+  cost:0
   change_to_infectiousness:11
   change_to_severity:4
   change_to_lethality:0
@@ -4580,7 +4580,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-12
+  cost:0
   change_to_infectiousness:0
   change_to_severity:9
   change_to_lethality:7
@@ -4664,7 +4664,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-19
+  cost:0
   change_to_infectiousness:8
   change_to_severity:15
   change_to_lethality:8
@@ -4748,7 +4748,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-18
+  cost:0
   change_to_infectiousness:6
   change_to_severity:15
   change_to_lethality:0
@@ -4832,7 +4832,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-28
+  cost:0
   change_to_infectiousness:0
   change_to_severity:20
   change_to_lethality:25
@@ -4916,7 +4916,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-21
+  cost:0
   change_to_infectiousness:0
   change_to_severity:15
   change_to_lethality:2
@@ -5000,7 +5000,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-27
+  cost:0
   change_to_infectiousness:10
   change_to_severity:20
   change_to_lethality:13
@@ -5084,7 +5084,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:0
-  cost:-23
+  cost:0
   change_to_infectiousness:0
   change_to_severity:15
   change_to_lethality:15
@@ -5168,7 +5168,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:1
-  cost:-1
+  cost:0
   change_to_infectiousness:1
   change_to_severity:0
   change_to_lethality:0
@@ -5252,7 +5252,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:spore_burst_1
   start_point:0
-  cost:-1
+  cost:0
   change_to_infectiousness:1
   change_to_severity:0
   change_to_lethality:0
@@ -5336,7 +5336,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:spore_burst_2
   start_point:0
-  cost:-1
+  cost:0
   change_to_infectiousness:1
   change_to_severity:0
   change_to_lethality:0
@@ -5420,7 +5420,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:spore_burst_3
   start_point:0
-  cost:-1
+  cost:0
   change_to_infectiousness:1
   change_to_severity:0
   change_to_lethality:0
@@ -5504,7 +5504,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:spore_burst_4
   start_point:0
-  cost:-1
+  cost:0
   change_to_infectiousness:1
   change_to_severity:0
   change_to_lethality:0
@@ -5588,7 +5588,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:spore_burst_5
   start_point:0
-  cost:-1
+  cost:0
   change_to_infectiousness:1
   change_to_severity:0
   change_to_lethality:0
@@ -5672,7 +5672,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:spore_burst_6
   start_point:0
-  cost:-2
+  cost:0
   change_to_infectiousness:2
   change_to_severity:0
   change_to_lethality:0
@@ -5756,7 +5756,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:0
   start_point:1
-  cost:-1
+  cost:0
   change_to_infectiousness:1
   change_to_severity:0
   change_to_lethality:0
@@ -5840,7 +5840,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:spore_burst_1_
   start_point:0
-  cost:-1
+  cost:0
   change_to_infectiousness:1
   change_to_severity:0
   change_to_lethality:0
@@ -5924,7 +5924,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:spore_burst_2_
   start_point:0
-  cost:-1
+  cost:0
   change_to_infectiousness:1
   change_to_severity:0
   change_to_lethality:0
@@ -6008,7 +6008,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:spore_burst_3_
   start_point:0
-  cost:-1
+  cost:0
   change_to_infectiousness:1
   change_to_severity:0
   change_to_lethality:0
@@ -6092,7 +6092,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:spore_burst_4_
   start_point:0
-  cost:-1
+  cost:0
   change_to_infectiousness:1
   change_to_severity:0
   change_to_lethality:0
@@ -6176,7 +6176,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:spore_burst_5_
   start_point:0
-  cost:-1
+  cost:0
   change_to_infectiousness:1
   change_to_severity:0
   change_to_lethality:0
@@ -6260,7 +6260,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:spore_burst_6_
   start_point:0
-  cost:-2
+  cost:0
   change_to_infectiousness:2
   change_to_severity:0
   change_to_lethality:0
@@ -6344,7 +6344,7 @@ disease_tech:
   tech_requirement_or:0
   tech_requirement_and:spore_eruption,spore_eruption_
   start_point:0
-  cost:-5
+  cost:0
   change_to_infectiousness:3
   change_to_severity:0
   change_to_lethality:0
@@ -6428,7 +6428,7 @@ disease_tech:
   tech_requirement_or:
   tech_requirement_and:
   start_point:0
-  cost:-250
+  cost:0
   change_to_infectiousness:1000
   change_to_severity:100000
   change_to_lethality:100000
@@ -6500,4 +6500,3 @@ disease_tech:
   change_to_recompute_paths_flag:0
   unlock_aa:
   change_to_horde_water_speed:0
-
